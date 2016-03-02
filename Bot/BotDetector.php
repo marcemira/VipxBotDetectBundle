@@ -94,7 +94,7 @@ class BotDetector implements BotDetectorInterface
             $cache->write($dumper->dump(), $metadataCollection->getResources());
         }
 
-        return $this->metadatas = require $cache;
+        return $this->metadatas = require $cache->getPath();
     }
 
     /**
