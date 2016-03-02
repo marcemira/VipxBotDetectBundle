@@ -1,5 +1,5 @@
 {
-    "name": "vipx/bot-detect-bundle",
+    "name": "marcemira/bot-detect-bundle",
     "type": "symfony-bundle",
     "description": "Symfony VipxBotDetectBundle",
     "keywords": ["Security", "Bot"],
@@ -13,12 +13,11 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1",
-        "symfony/security-bundle": "~2.1",
-        "vipx/bot-detect": "~1.0"
+        "symfony/framework-bundle": "~2.1 || ^3.0",
+        "symfony/security-bundle": "~2.1 || ^3.0"
     },
     "require-dev": {
-        "satooshi/php-coveralls": "~0.6"
+        "symfony/yaml": "~2.1 || ^3.0"
     },
     "autoload": {
         "psr-0": { "Vipx\\BotDetectBundle": "" }
